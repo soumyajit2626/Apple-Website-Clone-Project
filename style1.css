@@ -226,11 +226,13 @@
         .first-latest-product-img {
             width: 26vw;
             border-radius: 17px;
+            box-shadow: 2px 2px 12px black;
         }
 
         .first-latest-product {
             width: 26vw;
             position: relative;
+            cursor: pointer;
         }
 
         .info-first-latest-product {
@@ -239,4 +241,35 @@
             top: 4vh;
             left: 2vw;
             font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+
+        .second-latest-product {
+            width: 26vw;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .second-latest-product-img {
+            width: 26vw;
+            border-radius: 17px;
+            box-shadow: 2px 2px 12px black;
+
+        }
+
+        .info-second-latest-product {
+            color: black;
+            position: absolute;
+            top: 1vh;
+            left: 2vw;
+            font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+
+        .the-latest-store {
+            display: flex;
+            flex-direction: row;
+            gap: 3vw;
+        }
+
+        .hover:hover {
+            cursor: pointer;
         }
