@@ -1,5 +1,5 @@
         html {
-            overflow-x: scroll;
+            overflow-x: hidden;
         }
 
         body {
@@ -210,5 +210,33 @@
 
         .container3 {
             margin-left: 6vw;
-            margin-top: 10vh;
+            margin-top: 15vh;
+        }
+
+        .h1-under-container3 {
+            font-size: 2rem;
+            font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+            width: 49vw;
+        }
+
+        .span-under-h1 {
+            color: gray;
+        }
+
+        .first-latest-product-img {
+            width: 26vw;
+            border-radius: 17px;
+        }
+
+        .first-latest-product {
+            width: 26vw;
+            position: relative;
+        }
+
+        .info-first-latest-product {
+            color: white;
+            position: absolute;
+            top: 4vh;
+            left: 2vw;
+            font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
         }
