@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0px;
+            background-color: rgb(247, 245, 245);
+        }
+
+        .span:hover {
+            cursor: pointer;
+        }
+
+        .span {
+            height: 30px;
+        }
+
+        .s-written {
+            height: 0px;
+        }
+
+
+
+        nav {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            color: gray;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .headerins {
+            text-align: center;
+            font-size: 17px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: gray;
+            background-color: white;
+            position: relative;
+            animation: slider 2s;
+        }
+
+
+        @keyframes slider {
+            from {
+                top: -40px;
+                opacity: 0;
+            }
+
+            to {
+                top: 0px;
+                opacity: 1;
+            }
+        }
+
+
+
+
+        .headerinsp {
+            padding: 20px;
+        }
+
+        .store1 {
+
+            font-size: 80px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: absolute;
+            top: 7vh;
+            left: 11vw;
+            font-weight: 510;
+
+        }
+
+        .store2 {
+            position: absolute;
+            top: 7vh;
+            right: 11vw;
+            width: 28vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+            text-align: right;
+        }
+
+        .store {
+            position: relative;
+
+        }
+
+        .container1 {
+            height: 40vh;
+            max-height: 100vh;
+        }
+
+        .pic111 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .classmac {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic222 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .iphone {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic333 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .ipad {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic444 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .applewatch {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic555 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .airpods {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic666 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .airtag {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic777 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .appletv4k {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic888 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .homepod {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pic999 {
+            width: 120px;
+            height: 78px;
+        }
+
+        .accessories {
+            width: 120px;
+            text-align: center;
+            margin-top: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .pics {
+            display: flex;
+            margin-left: 7.5vw;
+            gap: 2vw;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="headnav">
+            <nav>
+                <span class="span"><img src="appleicon.svg" alt=""></span>
+                <span class="span s-written">Store</span>
+                <span class="span s-written">Mac</span>
+                <span class="span s-written">iPad</span>
+                <span class="span s-written">iPhone</span>
+                <span class="span s-written">Watch</span>
+                <span class="span s-written">Airpods</span>
+                <span class="span s-written">TV & Home</span>
+                <span class="span s-written">Entertainment</span>
+                <span class="span s-written">Accessories</span>
+                <span class="span s-written">Support</span>
+                <span class="span"><img src="searchicon.svg" alt=""></span>
+                <span class="span"><img src="bag.svg" alt=""></span>
+            </nav>
+        </div>
+        <div class="headerins">
+            <p class="headerinsp">Get up to 6 months of No Cost EMI◊ plus up to ₹10000.00 instant cashback∆ on selected
+                products with eligible cards. <span><a href="#">See offers</a></span></p>
+        </div>
+    </header>
+    <div class="container1">
+
+        <div class="store">
+            <span class="store1">Store</span>
+            <div class="store2">
+                <h2>The best way to buy the products you love.</h2>
+                <p><a href="#">Connect with a specialist</a></p>
+                <p><a href="#">Find an Apple Store</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="pics">
+            <div class="pic1">
+                <div class="pic11">
+                    <img class="pic111" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-mac-nav-202603?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=M1Q3OGxnb1lBaHhqNjZ2OVRXZmx4V2duSGVkdTVncGZYc0RnS1paU3IySCsrUlZaSVRoWVYzU0Qra0FoTmUwNng2bitObzZwQzk4cEorV1dZdzhIazAreDNWYWNLK1lESGRXY25VRzdWVTQ">
+                </div>
+                <div class="classmac">
+                    Mac
+                </div>
+            </div>
+            <div class="pic2">
+                <div class="pic22">
+                    <img class="pic222" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-iphone-nav-202509?wid=400&hei=260&fmt=png-alpha&.v=dW5XbHI1eDVpd01qWUU4bFRtWGZXM1doT212VzJoWjBSKzRpbmNETHN1QjVoZlhhY1p4QWdsTjFNaGRHM3FYWW15d1FhSDJ0bkR0ZGZtUjZJNmFveGVEVGM2Z3VEVWcvT3Z6KzhkR29Ddmc">
+                </div>
+                <div class="iphone">
+                    iPhone
+                </div>
+            </div>
+            <div class="pic3">
+                <div class="pic33">
+                    <img class="pic333" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=dW5XbHI1eDVpd01qWUU4bFRtWGZXNGFLQTJVNnlNQmQrVmRBYnZYei9jckUzelNmMnRxajE0NHhmMWtLazl6eG53M0FRZHBXNTh1U1lFVEtSR2YzTm5qbE56RWRpRFNIRXZvbkd2S0l5dTg">
+                </div>
+                <div class="ipad">
+                    iPad
+                </div>
+            </div>
+            <div class="pic4">
+                <div class="pic44">
+                    <img class="pic444" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-watch-nav-202509_GEO_IN?wid=400&hei=260&fmt=png-alpha&.v=S0tSVzBtSkRkSFFhMm1zS1NmeWtkK0gvNGFhODF5SWpidW9tVnFmL2IrcnZGQmhUaHlPN016cFdzNFJtZThkQ2M5THdmR1U4Nmp4b2NFbEg2N21UQzYzZVFZZGtHNUI4c1NvME1xTTYxSzZ1ZUVMek0rc2U0U3QwOE5USS9PYTQ">
+                </div>
+                <div class="applewatch">
+                    Apple Watch
+                </div>
+            </div>
+            <div class="pic5">
+                <div class="pic55">
+                    <img class="pic555" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-airpods-nav-202509?wid=400&hei=260&fmt=png-alpha&.v=Q0Z1bWFqMUpRRnp3T0Y0VWJpdk1yMDhFUStvWHB3SDlDa3VrdUZORWRqeld1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VGZUMjJQZFhhT2thWmkxZjhra3FyZEk">
+                </div>
+                <div class="airpods">
+                    AirPods
+                </div>
+            </div>
+            <div class="pic6">
+                <div class="pic66">
+                    <img class="pic666" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-airtags-nav-202601_GEO_IN?wid=400&hei=260&fmt=png-alpha&.v=Q0Z1bWFqMUpRRnp3T0Y0VWJpdk1yL1FqZ2pobDV2bDUyWU1XVmNnMmx3UUdvUzdNVnRJWFZUbkZkSEFxU1M1YWlRT3o4dCtSOG5URzZBQk51WVJZNG1ZT05aMG1qOXJGam1odE5PQXNEK3hoZmhNRWMyTWI4VWg3NDM1QXBxeWs">
+                </div>
+                <div class="airtag">
+                    AirTag
+                </div>
+            </div>
+            <div class="pic7">
+                <div class="pic77">
+                    <img class="pic777" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=T0wvM1N3YUcxQ09qK0VNRkl1RU1BZFM5WnN0RmVZRmVXQ0FCUWJjbnJDald1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFZ3YmJrVi9SakQxWUcrYWQwVXc5VTA">
+                </div>
+                <div class="appletv4k">
+                    Apple TV 4K
+                </div>
+            </div>
+            <div class="pic8">
+                <div class="pic88">
+                    <img class="pic888" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=WVcvamRucHVMMWs5SXZ3bVJ3Q2hpZGR0czFXNWdCUW14eTN2U29pLzNMcld1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFJmbWU0TjJLamxsdTltNkZVZ1RhbDA">
+                </div>
+                <div class="homepod">
+                    HomePod
+                </div>
+            </div>
+            <div class="pic9">
+                <div class="pic99">
+                    <img class="pic999" loading="lazy" width="200" height="130" alt=""
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-accessories-nav-202603?wid=400&hei=260&fmt=png-alpha&.v=QnhsNk96S0o4R1dkN2FveStNM1hwNzZGMHVrNGw2NTM5Vmk2bHZzMXQ3aUlac2ROMkdFNG0rMXdMQ0t2WTVlSFBrcjVFNVdueFRVbVY3TGtiL2RjUWVXQ0tWTWFGNXA2NmlzMmRVQ1l6WmlFMHVWQmxPTEFhTVNvVStGSjlxajM">
+                </div>
+                <div class="accessories">
+                    Accessories
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
