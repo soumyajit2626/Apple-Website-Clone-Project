@@ -305,7 +305,7 @@
 
         .no_cost_emi {
             font-size: 1.5rem;
-            margin-right: 1vw;
+            width: 16vw;
             font-weight: 550;
         }
 
@@ -313,8 +313,18 @@
             margin-top: 6vh;
             display: flex;
             gap: 3vw;
-
+            width: 84vw;
+            overflow-x: scroll;
+            padding: 2vw;
         }
+
+        .heading-under-container4 {
+            padding-left: 0.8vw;
+        }
+
+
+
+
 
 
 
@@ -359,7 +369,7 @@
 
         .container4 {
             font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-            margin-left: 6.7vw;
+            margin-left: 4vw;
             margin-top: 14vh;
             margin-bottom: 3vh;
             margin-right: 6.7vw;
