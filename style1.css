@@ -291,10 +291,12 @@
 
         .card1 {
             width: 22vw;
-            height: 35vh;
+            height: 258px;
             border-radius: 15px;
             box-shadow: 0px 0px 20px 0px #bfbbbb;
             cursor: pointer;
+            overflow-y: scroll;
+            scrollbar-width: none;
         }
 
         .content_under_card1 {
@@ -309,11 +311,28 @@
 
         .cards-under-container4 {
             margin-top: 6vh;
+            display: flex;
+            gap: 3vw;
+
+        }
+
+
+
+
+
+
+        .no_cost_emi_1 {
+            color: rgb(255, 136, 0);
+            font-size: 1.5rem;
+            margin-right: 1vw;
+            font-weight: 550;
         }
 
         .plus-instant-cashback {
             color: rgb(255, 136, 0);
         }
+
+
 
         /* 전체 scrollbar */
         ::-webkit-scrollbar {
@@ -342,5 +361,10 @@
             font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
             margin-left: 6.7vw;
             margin-top: 14vh;
-            margin-bottom: 5vh;
+            margin-bottom: 3vh;
+            margin-right: 6.7vw;
+
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-bottom: 5vh;
         }
