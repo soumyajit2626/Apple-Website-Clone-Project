@@ -290,6 +290,7 @@
         }
 
         .card1 {
+            flex-shrink: 0;
             width: 22vw;
             height: 258px;
             border-radius: 15px;
@@ -309,18 +310,22 @@
             font-weight: 550;
         }
 
-        .cards-under-container4 {
-            margin-top: 6vh;
-            display: flex;
-            gap: 3vw;
-            width: 84vw;
-            overflow-x: scroll;
-            padding: 2vw;
-        }
+
 
         .heading-under-container4 {
             padding-left: 0.8vw;
         }
+
+        .cards-under-container4 {
+            display: flex;
+            gap: 2.5vw;
+            width: 82vw;
+            /* padding-left: 1vw; */
+            /* padding-right: 1vw; */
+            overflow-x: scroll;
+            padding: 2vw;
+        }
+
 
 
 
@@ -370,7 +375,7 @@
         .container4 {
             font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
             margin-left: 4vw;
-            margin-top: 14vh;
+            margin-top: 13vh;
             margin-bottom: 3vh;
             margin-right: 6.7vw;
 
@@ -378,3 +383,16 @@
             padding-right: 2vw;
             padding-bottom: 5vh;
         }
+
+        .container5 {
+            font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+            margin-left: 4vw;
+            margin-top: 10vh;
+            margin-bottom: 3vh;
+            margin-right: 6.7vw;
+
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-bottom: 5vh;
+        }
+        
